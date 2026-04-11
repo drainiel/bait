@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest bait-app --yes)",
+      "Bash(mkdir -p bait-backend)",
+      "Bash(npm init:*)",
+      "Bash(npx expo:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx -p typescript tsc --init)",
+      "Bash(npx -p typescript tsc --noEmit)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(npx --prefix . tsc --noEmit)",
+      "Bash(/Users/daniele/bait/bait-backend/node_modules/.bin/tsc --noEmit)",
+      "Bash(timeout 5 npx tsx src/index.ts)"
+    ]
+  }
+}

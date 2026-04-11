@@ -1,0 +1,13 @@
+*.env
+.env
+.env.*
+node_modules/
+
+# Ignore Expo / React Native builds
+bait-app/.expo/
+bait-app/ios/Pods/
+bait-app/ios/build/
+bait-app/android/build/
+bait-app/android/.gradle/
+bait-app/android/app/build/
+*.xcworkspace
