@@ -9,7 +9,6 @@ const config = getDefaultConfig(__dirname);
 // that crash on missing WebRTC globals.
 config.resolver.unstable_conditionNames = [
   'react-native',
-  'browser',
   'require',
   'import',
 ];
