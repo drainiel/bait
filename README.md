@@ -1,4 +1,4 @@
-# BAIT
+# BAIT - Behavioral Analysis & Investment Tutor
 
 BAIT is a mobile application for analyzing content credibility. It pairs an Expo/React Native client with a Node.js backend that runs a pipeline of LLM-driven agents (claim extraction, bias detection, source credibility, final verdict) and exposes a voice interface via ElevenLabs and LiveKit.
 
