@@ -10,7 +10,7 @@ BAIT is a mobile application for analyzing content credibility. It pairs an Expo
 - TypeScript
 - LiveKit React Native + WebRTC for real-time audio
 - ElevenLabs React Native SDK for conversational voice
-- React Navigation (bottom tabs)
+- Expo native tabs (bottom tabs)
 - React Native Reanimated / Gesture Handler
 
 **Backend (`bait-backend/`)**
@@ -27,7 +27,6 @@ BAIT is a mobile application for analyzing content credibility. It pairs an Expo
 - Git
 - For mobile builds:
   - iOS: macOS with Xcode 15+ and CocoaPods
-  - Android: Android Studio with SDK / emulator, JDK 17
 - Expo Go app (optional, for quick device testing)
 - API keys:
   - `GROQ_API_KEY`
